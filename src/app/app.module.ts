@@ -10,6 +10,7 @@ import { MilestonesComponent } from './milestones/milestones.component';
 import { MuseumsComponent } from './museums/museums.component';
 import { RestaurantsComponent } from './restaurants/restaurants.component';
 import { HomeComponent } from './home/home.component';
+import { HeaderComponent } from './home/header/header.component';
 
 @NgModule({
   declarations: [								
@@ -21,7 +22,8 @@ import { HomeComponent } from './home/home.component';
       MilestonesComponent,
       MuseumsComponent,
       RestaurantsComponent,
-      HomeComponent
+      HomeComponent,
+      HeaderComponent
    ],
   imports: [
     BrowserModule,
