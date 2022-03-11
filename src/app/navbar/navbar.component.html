@@ -1,32 +1,43 @@
 <nav class="navbar navbar-expand-lg sticky-top">
   <div class="container">
-    <a class="navbar-brand" href="#">
-      Albash
+    <a class="navbar-brand fw-bold " routerLink="/home">
+      Visit Arnhem
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <i class="fa-solid fa-bars"></i>
+    aria-expanded="false" aria-label="Toggle navigation">
+    
+    <i class="fa-solid fa-bars" style="font-size:20px;"></i>
     </button>
     <div class="collapse navbar-collapse" id="main">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link p-lg-3 active" aria-current="page" href="#">
-            <i class="fas fa-home" style="font-size:20px;"></i>Home</a>
+          <a class="nav-link p-lg-3 " aria-current="page" 
+          routerLink="/home">
+            <i class="fas fa-home" style="font-size:20px;"></i> Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link p-lg-3" 
+          routerLink="/milestones"><i class="fas fa-star" style="font-size:20px;"></i> Milestones</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link p-lg-3" 
+          routerLink="/museums"><i class="fas fa-archway" style="font-size:20px;"></i> Museums</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link p-lg-3" href="#"><i class="fas fa-star" style="font-size:20px;"></i> Milestones</a>
+          <a class="nav-link p-lg-3" 
+          routerLink="/restaurants"><i class="fas fa-utensils" style="font-size:20px;"></i> Restaurants</a>
         </li>
+
         <li class="nav-item">
-          <a class="nav-link p-lg-3" href="#"><i class="fas fa-archway" style="font-size:20px;"></i> Museums</a>
+          <a class="nav-link p-lg-3" 
+          routerLink="/hotels"><i class="fas fa-bed" style="font-size:20px;"></i> Hotels</a>
         </li>
+
         <li class="nav-item">
-          <a class="nav-link p-lg-3" href="#"><i class="fas fa-utensils" style="font-size:20px;"></i> Restaurants</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link p-lg-3" href="#"><i class="fas fa-bed" style="font-size:20px;"></i> Hotels</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link p-lg-3" href="#"><i class="fas fa-comment" style="font-size:20px;"></i> Contact Us</a>
+          <a class="nav-link p-lg-3" 
+          routerLink="/Contactus"><i class="fas fa-comment" style="font-size:20px;"></i> Contact Us</a>
         </li>
       </ul>
       <div class="search ps-3 pe-3 d-none d-lg-block">
