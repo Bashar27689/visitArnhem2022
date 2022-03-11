@@ -8,7 +8,7 @@ import { RestaurantsComponent } from './restaurants/restaurants.component';
 import { ContactusComponent } from './contactus/contactus.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/Visitarnhem', pathMatch: 'full' },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'milestones', component: MilestonesComponent },
   { path: 'museums', component: MuseumsComponent },

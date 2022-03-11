@@ -2,13 +2,12 @@
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
 
-.page-container {
-  padding: 1rem 2rem;
-}
 
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -18,6 +17,57 @@
   --red-color: #ff3150;
   --yellow-color: #ffc400;
   --section-color: #eff7fa;
+  --color-1: #186cb8;
+  --color-2: #2a9a9f;
+  --color-3: #f98d00;
+  --color-4: #e83611;
+  --color-5: #f1b211;
+}
+/*section */
+
+.section-title{
+    margin:1rem;
+    margin-bottom: 1.5rem;
+    padding:3px;
+    text-align:center;
+    border-radius: 50px;
+    background: rgb(103, 203, 224);
+    box-shadow:  13px 13px 26px #58adbe,-13px -13px 26px rgb(118, 233, 255);
+    
+}
+/*End section */
+
+/* Card-item Styles*/
+
+.card{
+  height:100%
+}
+.card:hover{
+  transition: 0.9s;	
+	-webkit-transition: 0.9s; /* For Safari 3.1 to 6.0 */
+	background-color:rgba(150,150,150,.8);
+	box-shadow: 5px 5px 10px rgb(94, 104, 121),-6px -6px 5px rgb(255,255,255);
+	
 }
 
+.card-img-top{
+  height: 50%;
+}
+
+.card-body{
+  height: 50%;
+}
+.card-title{
+  color:var(--red-color);
+
+}
+.card-text{
+  height: 60%;
+  text-align: justify;
+  font-style: italic;
+}
+
+.card .btn{
+  color:var()
+}
 

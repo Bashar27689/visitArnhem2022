@@ -9,8 +9,7 @@ import { HotelsComponent } from './hotels/hotels.component';
 import { MilestonesComponent } from './milestones/milestones.component';
 import { MuseumsComponent } from './museums/museums.component';
 import { RestaurantsComponent } from './restaurants/restaurants.component';
-import { HomeComponent } from './home/home.component';
-import { HeaderComponent } from './home/header/header.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [								
@@ -22,7 +21,6 @@ import { HeaderComponent } from './home/header/header.component';
       MilestonesComponent,
       MuseumsComponent,
       RestaurantsComponent,
-      HomeComponent,
       HeaderComponent
    ],
   imports: [

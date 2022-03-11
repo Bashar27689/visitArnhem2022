@@ -1,0 +1,54 @@
+
+.row-img {
+    height:50vh;
+}
+.img-home{
+width: 100%;
+}
+.hometitle{
+    font-family:sans-serif ;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    text-transform: uppercase;
+    color: transparent ;
+   
+    /* text-shadow: 0 0 0 #33333333; */
+    background-image:linear-gradient(
+         220deg,
+        var(--color-1) 19%,
+        transparent 19%, transparent 20%,
+        var(--color-2) 20%, var(--color-2) 39%,
+        transparent 39%, transparent 40%,
+        var(--color-3)40%, var(--color-3)59%,
+        transparent 59%, transparent 60%,
+        var(--color-4) 60%, var(--color-4)79%,
+        transparent 79%, transparent 79%,
+        var(--color-5)80%
+        );
+-webkit-background-clip:text;
+}
+.arnhemtext{
+    font-size: 1.5rem;
+    line-height:2.5rem;
+    text-align: justify;
+    font-weight: 700;
+
+}
+i{
+    color: var(--green-color);
+    font-size: 5rem;
+}
+.arnhemsite{
+    color: var(--green-color);
+    text-decoration: none;
+}
+.arnhemsite:hover{
+    color:blueviolet;
+}
+@media (max-width:375px) {
+
+    
+}
