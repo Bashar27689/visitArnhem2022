@@ -1,6 +1,15 @@
 
 .row-img {
-    height:50vh;
+    height:25vh;
+    background-image: linear-gradient(rgba(86, 123, 160, 0.5), rgba(0, 51, 102, 0.7)),
+     url('../../assets/arnhem.jpg');
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: padding-box, padding-box;
+    background-size: 100% 100%;
+
+
 }
 .img-home{
 width: 100%;
