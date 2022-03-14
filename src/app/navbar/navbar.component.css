@@ -10,10 +10,19 @@
   .navbar .navbar-nav .nav-link {
     color: white;
   }
+  .nav-item:hover{
+    background-color: var(--section-color);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
   .navbar .navbar-nav .nav-link.active,
   .navbar .navbar-nav .nav-link:focus,
   .navbar .navbar-nav .nav-link:hover {
-    color: var(--green-color);
+    
+    color: var(--color-4);
   }
   
   .navbar-brand{
@@ -48,14 +57,19 @@
     border-color: white;
     box-shadow: none;
   }
+
   
   .navbar .navbar-toggler[aria-expanded="true"] {
     border-color: var(--green-color);
   }
+  
+
   .main-btn{
     color: var( --section-color);
     border-color: var(--color-4);
   }
+
+
   @media only screen and (max-width:500px){
     .navbar-brand{
       font-size: 1rem;

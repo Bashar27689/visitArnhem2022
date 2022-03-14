@@ -6,10 +6,11 @@ import { MilestonesComponent } from './milestones/milestones.component';
 import { MuseumsComponent } from './museums/museums.component';
 import { RestaurantsComponent } from './restaurants/restaurants.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { NavShellComponent } from './nav-shell/nav-shell.component';
 
-const routes: Routes = [
+const navbarRoutes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: 'home', component: HomeComponent },
+  {path:'home',component:HomeComponent},
   { path: 'milestones', component: MilestonesComponent },
   { path: 'museums', component: MuseumsComponent },
   { path : 'restaurants',component:RestaurantsComponent},
@@ -18,9 +19,17 @@ const routes: Routes = [
  
 
 ];
+const routes: Routes = [
+  { path: '', component: NavShellComponent, children: navbarRoutes },
+  { path: 'home', component:HomeComponent },
+  
 
+  
+
+  // { path: '**', component: PageNotFoundComponent },
+];
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  imports: [RouterModule.forRoot(routes, { relativeLinkResolution: 'legacy' })],
+  exports: [RouterModule],
 })
 export class AppRoutingModule { }

@@ -1,13 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
-
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Patrick+Hand|Yeseva+One&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
   cursor:default;
 }
 
@@ -23,6 +23,13 @@
   --color-3: #f98d00;
   --color-4: #e83611;
   --color-5: #f1b211;
+}
+
+/* body style*/
+body{
+  font-family: 'Patrick Hand', cursive;
+  background-color:rgba(150,150,150,.5);
+
 }
 /*section */
 
@@ -70,13 +77,14 @@ box-shadow: 2px 0px 10px 5px rgba(0,0,0,0.65);
 
 .card-text{
   height: 60%;
+  font-family: 'Crimson Text', serif;
   text-align: justify;
   font-style: italic;
   line-height: 2rem;
 }
 
 .card .btn{
-  color:var(--section-color);
+  color:var(--dark-color);
   background-color: var(--color-2);
 }
 
@@ -84,5 +92,16 @@ box-shadow: 2px 0px 10px 5px rgba(0,0,0,0.65);
 {
   color:var(--color-2);
   background-color: var(--section-color);
+}
+
+a{
+  font-family: 'Yeseva One', cursive;
+  font-weight:bold;
+  cursor: pointer;
+}
+
+h5{
+  font-family: 'Yeseva One', cursive;
+  font-weight:bold;
 }
 

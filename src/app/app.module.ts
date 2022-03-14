@@ -10,9 +10,11 @@ import { MilestonesComponent } from './milestones/milestones.component';
 import { MuseumsComponent } from './museums/museums.component';
 import { RestaurantsComponent } from './restaurants/restaurants.component';
 import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { NavShellComponent } from './nav-shell/nav-shell.component';
 
 @NgModule({
-  declarations: [								
+  declarations: [										
     AppComponent,
       NavbarComponent,
       ContactusComponent,
@@ -21,7 +23,9 @@ import { HeaderComponent } from './header/header.component';
       MilestonesComponent,
       MuseumsComponent,
       RestaurantsComponent,
-      HeaderComponent
+      HeaderComponent,
+      FooterComponent,
+      NavShellComponent
    ],
   imports: [
     BrowserModule,
