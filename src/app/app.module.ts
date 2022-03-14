@@ -9,7 +9,6 @@ import { HotelsComponent } from './hotels/hotels.component';
 import { MilestonesComponent } from './milestones/milestones.component';
 import { MuseumsComponent } from './museums/museums.component';
 import { RestaurantsComponent } from './restaurants/restaurants.component';
-import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavShellComponent } from './nav-shell/nav-shell.component';
 
@@ -23,7 +22,6 @@ import { NavShellComponent } from './nav-shell/nav-shell.component';
       MilestonesComponent,
       MuseumsComponent,
       RestaurantsComponent,
-      HeaderComponent,
       FooterComponent,
       NavShellComponent
    ],

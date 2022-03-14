@@ -25,18 +25,31 @@
   --color-5: #f1b211;
 }
 
-/* body style*/
+/* general style*/
 body{
   font-family: 'Patrick Hand', cursive;
   background-color:rgba(150,150,150,.5);
-
 }
-/*section */
 
+a{
+  font-family: 'Yeseva One', cursive;
+  font-weight:bold;
+  cursor: pointer;
+}
+h1,
+h5{
+  font-family: 'Yeseva One', cursive;
+  font-weight:bold;
+}
+
+
+/*section */
 .section-title{
     margin:1rem;
     margin-bottom: 1.5rem;
     padding:3px;
+    font-family: 'Crimson Text', serif;
+    font-weight: 700;
     text-align:center;
     border-radius: 50px;
     background: rgb(103, 203, 224);
@@ -45,12 +58,14 @@ body{
 }
 /*End section */
 
-/* Card-item Styles*/
 
+/* Card-item Style*/
+
+/*card*/
 .card{
+ 
   height:100%;
 }
-
 .card:hover{
   transition: 0.5s;
   -webkit-transition: 0.5s;
@@ -60,48 +75,52 @@ body{
   -webkit-box-shadow: 2px 0px 10px 5px rgb(94,104,121); 
 box-shadow: 2px 0px 10px 5px rgba(0,0,0,0.65);
 }
-
+ 
+/*card-img*/
 .card-img-top{
-  height: 50%;
+  height: 55%;
 }
 
+/*card-body*/
 .card-body{
-  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  height: 45%;
 }
+/*card-title*/
 .card-title{
+  
   color:var(--red-color);
-  font-size:2rem;
-  font-weight: 700;
+  font-size:1.5rem;
+  font-weight: 400;
   
 }
 
+/*card text*/
 .card-text{
-  height: 60%;
+ 
   font-family: 'Crimson Text', serif;
   text-align: justify;
   font-style: italic;
-  line-height: 2rem;
+  line-height: 1rem;
 }
 
+/*card button*/
 .card .btn{
+  width:50%;
   color:var(--dark-color);
   background-color: var(--color-2);
 }
 
 .card .btn:hover
 {
+
   color:var(--color-2);
   background-color: var(--section-color);
 }
 
-a{
-  font-family: 'Yeseva One', cursive;
-  font-weight:bold;
-  cursor: pointer;
-}
+/*End Card-item style */
 
-h5{
-  font-family: 'Yeseva One', cursive;
-  font-weight:bold;
-}
+
 
