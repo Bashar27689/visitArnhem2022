@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "arnhem-2022"
+  },
+  "targets": {
+    "arnhem-2022": {
+      "hosting": {
+        "visit-arnhem": [
+          "arnhem-2022"
+        ]
+      }
+    }
+  }
+}
